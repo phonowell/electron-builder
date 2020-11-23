@@ -1,0 +1,39 @@
+{
+  "author": "Mimiko Phonowell <phnonwell@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/phonowell/electron-builder/issues"
+  },
+  "dependencies": {
+    "electron": "^11.0.2",
+    "fire-keeper": "^0.0.176",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "description": "",
+  "homepage": "https://github.com/phonowell/electron-builder",
+  "keywords": [
+    "ahk",
+    "auto hotkey",
+    "coffeescript",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "electron-builder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phonowell/electron-builder.git"
+  },
+  "scripts": {
+    "alice": "ts-node task/alice",
+    "build": "npm run alice build",
+    "test": "npm run alice test"
+  },
+  "url": "https://github.com/phonowell/electron-builder",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@types/lodash": "^4.14.165",
+    "@types/node": "^14.14.7"
+  }
+}
